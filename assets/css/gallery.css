@@ -1,0 +1,102 @@
+.galleryHead {
+    width: 25%;
+    height: 100vh;
+    padding: 32px;
+    background-color: #ea513e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.gallery-header {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.gallery-header h1 {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 900;
+    margin-left: 2px;
+}
+
+.home-btn {
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    padding: 8px 16px;
+}
+
+.galleryHead h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.galleryHead p {
+    color: rgb(24, 23, 23);
+    text-align: left;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.galleryHead .icon-nav a {
+    background-color: #ea513e;
+    border: 2px solid #fff;
+}
+
+.galleryHead .icon-nav a i {
+    color: #fff;
+}
+
+.galleryHead .icon-nav {
+    margin-bottom: 16px;
+}
+
+.gallery {
+    width: 72%;
+    margin-left: 25%;
+}
+
+.gallery h2 {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin: 8px 0;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 16px;
+    align-self: flex-start;
+}
+
+.col img {
+    margin-bottom: 32px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.gallery-icon-nav {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.gallery-icon-nav a {
+    height: 48px;
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
